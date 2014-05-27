@@ -901,6 +901,7 @@ sgx () {
 backports () {
 	echo "dir: backports"
 	${git} "${DIR}/patches/backports/0001-backport-v3.13.7-tpm_i2c_atmel.c.patch"
+	${git} "${DIR}/patches/backports/0002-rt2800-add-support-for-radio-chip-RF3070.patch"
 }
 
 am33x
